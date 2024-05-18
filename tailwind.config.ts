@@ -73,13 +73,18 @@ const config = {
         "show-link": {
           from: {scale: ".2", opacity: "0"},
           to: {scale: "1", opacity: "1"}
+        },
+        "show-expand": {
+          from: {scale: "0"},
+          to: {scale: "1"}
         }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "show": "show 1s ease",
-        "show-link": "show-link 1s ease forwards"
+        "show-link": "show-link 1s ease forwards",
+        "show-expand": "show-expand .5s ease forwards"
       },
     },
   },

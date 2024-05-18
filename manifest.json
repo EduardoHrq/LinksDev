@@ -1,0 +1,17 @@
+{
+  "lang": "pt-br",
+  "name": "EduardoHrq_DevLinks",
+  "short_name": "DevLinks",
+  "description": "My dev links",
+  "start_url": "/",
+  "background_color": "#000",
+  "theme_color": "#000",
+  "orientation": "any",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/next.svg",
+      "sizes": "500x500"
+    }
+  ]
+}

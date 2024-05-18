@@ -9,7 +9,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "DevLinks",
   description: "Dev links",
-
+  applicationName: "Dev Links",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
@@ -40,7 +41,13 @@ export default function RootLayout({
           <Separator />
 
           <div className="flex items-center justify-evenly">
-            <Link href={"https://github.com/eduardohrq"} target="_blank" className="relative group">
+            <Link
+              href={"https://github.com/eduardohrq"}
+              target="_blank"
+              className="relative group 
+            animate-show-expand  "
+              style={{ scale: "0" }}
+            >
               <div className="bg-zinc-300 p-3 rounded-full overflow-hidden">
                 <i className="ph-fill ph-github-logo text-[50px] text-zinc-900"></i>
               </div>
@@ -57,7 +64,12 @@ export default function RootLayout({
               </div>
             </Link>
 
-            <Link href={"https://linkedin.com/in/eduardohrq"} target="_blank" className="relative group">
+            <Link
+              href={"https://linkedin.com/in/eduardohrq"}
+              target="_blank"
+              className="relative group animate-show-expand  "
+              style={{ scale: "0" }}
+            >
               <div className="bg-zinc-300 p-3 rounded-full overflow-hidden">
                 <i className="ph-fill ph-linkedin-logo text-[50px] text-blue-700"></i>
               </div>
@@ -79,7 +91,8 @@ export default function RootLayout({
                 "https://eduardohrqdev.notion.site/Curriculo-Eduardo-Henrique-Lima-Silva-EduardoHrq-08804bc978c8409b80eec0d8b731a8a5"
               }
               target="_blank"
-              className="relative group"
+              className="relative group animate-show-expand  "
+              style={{ scale: "0" }}
             >
               <div className="bg-zinc-300 p-3 rounded-full overflow-hidden">
                 <i className="ph-fill ph-read-cv-logo text-[50px] text-yellow-800"></i>
