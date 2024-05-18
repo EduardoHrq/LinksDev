@@ -22,8 +22,8 @@ export default function RootLayout({
       <head>
         <script src="https://unpkg.com/@phosphor-icons/web"></script>
       </head>
-      <body className="bg-zinc-200 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-200 overflow-hidden">
-        <main className="w-[400px] max-h-lvh mx-auto mt-5 overflow-y-auto px-4 pt-5 pb-10" >
+      <body className="bg-zinc-200 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-200 overflow-hidden animate-show   ">
+        <main className="md:w-[400px] min-w-[350px] max-h-lvh mx-auto mt-5 overflow-y-auto px-4 pt-5 pb-10">
           <div className="flex flex-col gap-5 items-center justify-center">
             <img
               src="https://i.imgur.com/qmVWOlh.jpg"
@@ -40,7 +40,7 @@ export default function RootLayout({
           <Separator />
 
           <div className="flex items-center justify-evenly">
-            <Link href={""} target="_blank" className="relative group">
+            <Link href={"https://github.com/eduardohrq"} target="_blank" className="relative group">
               <div className="bg-zinc-300 p-3 rounded-full overflow-hidden">
                 <i className="ph-fill ph-github-logo text-[50px] text-zinc-900"></i>
               </div>
@@ -57,7 +57,7 @@ export default function RootLayout({
               </div>
             </Link>
 
-            <Link href={""} target="_blank" className="relative group">
+            <Link href={"https://linkedin.com/in/eduardohrq"} target="_blank" className="relative group">
               <div className="bg-zinc-300 p-3 rounded-full overflow-hidden">
                 <i className="ph-fill ph-linkedin-logo text-[50px] text-blue-700"></i>
               </div>
@@ -70,11 +70,17 @@ export default function RootLayout({
                   className="border-x-[15px] border-x-transparent border-b-[15px] border-b-zinc-950
                absolute -top-3 -translate-x-1/2 left-1/2"
                 ></div>
-                aedIN
+                LinkedIn
               </div>
             </Link>
 
-            <Link href={""} target="_blank" className="relative group">
+            <Link
+              href={
+                "https://eduardohrqdev.notion.site/Curriculo-Eduardo-Henrique-Lima-Silva-EduardoHrq-08804bc978c8409b80eec0d8b731a8a5"
+              }
+              target="_blank"
+              className="relative group"
+            >
               <div className="bg-zinc-300 p-3 rounded-full overflow-hidden">
                 <i className="ph-fill ph-read-cv-logo text-[50px] text-yellow-800"></i>
               </div>
@@ -92,7 +98,6 @@ export default function RootLayout({
             </Link>
           </div>
 
-          
           <footer className="text-center mt-20 mb-10">
             Feito por <span className="font-bold">EduardoHrq</span>
           </footer>

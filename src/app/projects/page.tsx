@@ -34,6 +34,7 @@ export default function Projects() {
           title="Java"
           link="/java"
           icon={"https://skillicons.dev/icons?i=java"}
+          delay="0"
         />
 
         <LinkCard
@@ -41,6 +42,7 @@ export default function Projects() {
           title="Spring Boot"
           link="/java"
           icon={"https://skillicons.dev/icons?i=spring"}
+          delay=".1"
         />
 
         <LinkCard
@@ -48,6 +50,7 @@ export default function Projects() {
           title="TypeScript"
           link="/java"
           icon={"https://skillicons.dev/icons?i=ts"}
+          delay=".2"
         />
 
         <LinkCard
@@ -55,6 +58,7 @@ export default function Projects() {
           title="NodeJS"
           link="/java"
           icon={"https://skillicons.dev/icons?i=nodejs"}
+          delay=".3"
         />
 
         <LinkCard
@@ -62,6 +66,7 @@ export default function Projects() {
           title="Next"
           link="/java"
           icon={"https://skillicons.dev/icons?i=next"}
+          delay=".4"
         />
 
         <LinkCard
@@ -69,6 +74,7 @@ export default function Projects() {
           title="React"
           link="/java"
           icon={"https://skillicons.dev/icons?i=react"}
+          delay=".5"
         />
       </div>
     </>

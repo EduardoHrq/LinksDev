@@ -21,6 +21,7 @@ export default function Home() {
           title="ORCID"
           link="https://orcid.org/0009-0007-7639-6098"
           icon={"https://orcid.org/assets/vectors/orcid.logo.icon.svg"}
+          delay={"0"}
         />
 
         <LinkCard
@@ -28,6 +29,7 @@ export default function Home() {
           title="Portifolio"
           link="https://eduardohrq-portifoliodev.vercel.app"
           icon={<Briefcase size={32} weight="fill" />}
+          delay={".1"}
         />
 
         <LinkCard
@@ -35,6 +37,7 @@ export default function Home() {
           title="Projetos"
           link="/projects"
           icon={<Code size={32} weight="fill" />}
+          delay={".2"}
         />
       </div>
     </>

@@ -7,3 +7,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+*::-webkit-scrollbar {
+  width: 5px;
+  padding: 0;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 9999px;
+}
+
+
