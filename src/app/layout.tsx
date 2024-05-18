@@ -23,7 +23,7 @@ export default function RootLayout({
         <script src="https://unpkg.com/@phosphor-icons/web"></script>
       </head>
       <body className="bg-zinc-200 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-200 overflow-hidden">
-        <main className="w-[400px] max-h-lvh mx-auto mt-5 overflow-y-scroll px-4 pb-10" >
+        <main className="w-[400px] max-h-lvh mx-auto mt-5 overflow-y-auto px-4 pt-5 pb-10" >
           <div className="flex flex-col gap-5 items-center justify-center">
             <img
               src="https://i.imgur.com/qmVWOlh.jpg"
