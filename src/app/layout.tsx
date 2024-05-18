@@ -10,8 +10,10 @@ export const metadata: Metadata = {
   title: "DevLinks",
   description: "Dev links",
   applicationName: "Dev Links",
-  manifest: "/manifest.json",
+  manifest: "/manifest.json"
 };
+
+
 
 export default function RootLayout({
   children,
@@ -22,6 +24,7 @@ export default function RootLayout({
     <html lang="pt-BR" className={inter.className}>
       <head>
         <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
       </head>
       <body className="bg-zinc-200 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-200 overflow-hidden animate-show   ">
         <main className="md:w-[400px] min-w-[350px] max-h-lvh mx-auto mt-5 overflow-y-auto px-4 pt-5 pb-10">
